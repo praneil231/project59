@@ -1,0 +1,30 @@
+.marioclass{
+  height:300px;
+  width:300px;
+}
+body{
+  text-align:center;
+   background-image: linear-gradient(to right,green ,red, blue);
+  color:white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+  text-shadow:2px 2px magenta;
+}
+#bio{
+  font-size:18px;
+  padding:20px;
+    
+  
+}
+.menu{
+  list-style: none;
+    float: right;
+    
+}
+.menulink{
+    
+}
+#welcome{
+    
+}
