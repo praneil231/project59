@@ -4,7 +4,7 @@
 }
 body{
   text-align:center;
-   background-image: linear-gradient(to right,green ,red, blue);
+   background-image: linear-gradient(to right,green ,red, blue,yellow);
   color:white;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -26,5 +26,32 @@ h1{
     
 }
 #welcome{
-    
+  text-align:center;
+    border-bottom-style: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    text-align: right;
+    background-image: linear-gradient(to right,green ,red, blue,yellow);
+}
+
+li {
+  float: right;
+    padding-right: 10px
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
